@@ -102,6 +102,9 @@ int main ()
     stack.pop(); // Pop the top element from the stack
     break;
     case 3:
-    stack.peek();
+    stack.peek(); // get the value of the top element
+    break;
+
+    case 4
      }
 }
