@@ -47,6 +47,6 @@ class Stack
         }
 
         cout << "Popped value: " << temp->data << endl;
-        top
+        top = temp->next; // update the top pointer to the next node
     }
 };
