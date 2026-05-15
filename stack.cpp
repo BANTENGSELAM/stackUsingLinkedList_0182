@@ -22,6 +22,12 @@ class Stack
     public: 
     Stack()
     {
-        top = NULL // Initialize trhe stack with a null top pointer
+        top = NULL; // Initialize trhe stack with a null top pointer
+    }
+
+    // push operation : Insert on elemente onto the top of the stack
+    int push (int value)
+    {
+        Node *newNode = new Node();
     }
 };
