@@ -67,4 +67,9 @@ class Stack
                 cout << endl;
         } // Return the vlaue of the top node
     }
+
+    bool isEmpty()
+    {
+        return
+    }
 };
