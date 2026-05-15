@@ -28,6 +28,6 @@ class Stack
     // push operation : Insert on elemente onto the top of the stack
     int push (int value)
     {
-        Node *newNode = new Node();
+        Node *newNode = new Node(); // 1. Allocates memory for the new node
     }
 };
