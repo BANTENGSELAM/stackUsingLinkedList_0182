@@ -48,5 +48,11 @@ class Stack
 
         cout << "Popped value: " << temp->data << endl;
         top = temp->next; // update the top pointer to the next node
+        delete temp;
+    }
+
+    void peek ()
+    {
+        
     }
 };
