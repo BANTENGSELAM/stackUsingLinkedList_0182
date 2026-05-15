@@ -89,7 +89,7 @@ int main ()
         cout << "4. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
-     }
+     
 
      switch (choice)
      {
@@ -105,6 +105,14 @@ int main ()
     stack.peek(); // get the value of the top element
     break;
 
-    case 4
+    case 4 :
+        cout << "Exiting program." << endl;
+        break;
+        default:
+            cout << "invalid choice. Try again." << endl;
+            break;
+        }
+     cout << endl;
      }
+     return 0;
 }
