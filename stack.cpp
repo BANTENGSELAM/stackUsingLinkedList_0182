@@ -30,5 +30,6 @@ class Stack
     {
         Node *newNode = new Node(); // 1. Allocates memory for the new node
         newNode->data = value;      // 2. assign value
+        newNode->next = top;        // 3. set the next pointer of the new node
     }
 };
